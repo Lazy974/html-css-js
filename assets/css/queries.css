@@ -1,0 +1,102 @@
+/* Début règles CSS Mobile */
+@media screen and (max-width: 425px) {
+}
+
+/* Fin règles CSS Mobile */
+
+/* Début règles CSS Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+}
+/* Fin règles CSS Tablet */
+
+/* Début règles CSS Desktop */
+@media screen and (min-width: 1024px) {
+  /* Début du header */
+  .header__logo {
+    background-color: rgba(245, 245, 245, 0.919);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+    padding: 16px 0 16px 0;
+  }
+
+  .header__slogan {
+    text-transform: uppercase;
+  }
+  /* Fin du header */
+
+  /* Début de la navbar */
+  .nav {
+    background-color: gray;
+    color: white;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 16px 0 16px 0;
+    margin: 0;
+  }
+  /* Fin de la navbar */
+
+  /* Début du contenu principal */
+  .main {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .main__section__options {
+    background-color: gray;
+    width: 25%;
+    margin: 80px;
+    padding: 16px 0 16px 16px;
+  }
+
+  .main__section__options__nav__list {
+    list-style: none;
+  }
+
+  .main__section__options__nav__list__item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .main__section__description {
+    margin: 80px;
+    padding: 16px 0 16px 16px;
+  }
+
+  .main__section__biography {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .main__section__biography__images {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .main__section__biography__images__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Fin du contenu principal */
+
+  /* Début du footer */
+  .footer {
+    background-color: gray;
+    text-align: center;
+  }
+  /* Fin du footer */
+}
+/* Fin règles CSS Desktop */
