@@ -1,5 +1,5 @@
 // Variables, conditions, boucles, des appels réseaux, fonctions/méthodes, opérateurs conditionnels (&&, ||)
-
+console.log("Salut Antoine !");
 const body = document.querySelector("body");
 const buttonDarkMode = document.getElementById("btn-dark-mode");
 const buttonOffice = document.getElementById("btn-section-office");
@@ -23,7 +23,6 @@ const darkMode = () => {
 const showOffice = () => {
   if (sectionBiography.className.includes("hidden")) {
     // Créer la section Office en JavaScript puis l'afficher
-
     // createElement();
     // innerHTML = "";
     // appendChild();
